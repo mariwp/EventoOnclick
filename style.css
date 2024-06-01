@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.address-bar {
+    background-color: #e1e1e1;
+    padding: 5px;
+    font-size: 0.9em;
+    border: 1px solid #ccc;
+}
+
+.nav {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.nav-button {
+    background-color: #ddd;
+    border: 1px solid #aaa;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.search-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 5px 0;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #aaa;
+    border-right: none;
+}
+
+.login-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container {
+    padding: 20px;
+    display: inline;
+}
+
+h1 {
+    text-align: center;
+}
+
+.definition {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.noun {
+    font-style: italic;
+    color: gray;
+}
+
+.like-button {
+    background-color: #ffeb3b;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-definition {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: right;
+}
+
+.add-definition-button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

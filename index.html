@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="search-bar">
+            <h1>Dojonary</h1>
+            <input type="text" class="search-input" placeholder="Search">
+            <button class="login-button" id="loginButton" onclick="toggleLogin()">Login</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="definition">
+            <h2>ninja <span class="noun">noun</span></h2>
+            <p><strong>Plural:</strong> ninjas</p>
+            <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            <button id="like-button" class="like-button" onclick="alertLike()">13 likes</button>
+        </div>
+
+        <div class="definition">
+            <h2>ninja <span class="noun">noun</span></h2>
+            <p><strong>Plural:</strong> ninjas</p>
+            <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen-like</a> focus</p>
+            <button id="like-button" class="like-button" onclick="alertLike()">37 likes</button>
+        </div>
+
+        <div class="add-definition">
+            <p>Dojonary is defined by <strong>YOU</strong></p>
+            <button id="add-definition-button" class="add-definition-button" onclick="removeDefinition()">Add
+                Definition</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
